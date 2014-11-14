@@ -1,9 +1,9 @@
 {
     "path": {
-        "scss/app.scss": {
+        "scss/*.scss": {
             "sass.enabled": true,
             "sass.options": {
-                "outputDir": "../css/",
+                "outputDir": "css/",
                 "imagePath": null,
                 "sourceComments": "map",
                 "outputStyle": "nested"
