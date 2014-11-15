@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "layout.css",
+  "sources": [
+    "layout.scss"
+  ],
+  "names": [],
+  "mappings": ";AAAA,MAAM;EACF,QAAQ;;;AAGZ;EACI,OAAO;EACP,kBAAkB;EAClB,aAAa;;;AAGjB;EACI,YAAY;EACZ,YAAY;EACZ,SAAS;EACT,OAAO;EACP,QAAQ;EACR,kBAAkB;EAClB,YAAY;EACZ,YAAY",
+  "sourceRoot": "../sass/"
+}
