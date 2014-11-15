@@ -3,7 +3,7 @@ html, body {
 }
 
 $font-color: #333;
-$highlight-color: #2E8AF2; // #408FC7;
+$highlight-color: #408FC7; // #2E8AF2;
 
 body {
     font-family: 'Open Sans', sans-serif;;
@@ -46,6 +46,7 @@ h2 {
     font-size: 0.8em;
 }
 
+// Toggle the headers when on smaller screens
 @media(min-width: 600px) {
     .large-screen { display: inherit; }
     .small-screen { display: none; }
@@ -55,6 +56,8 @@ h2 {
     .large-screen { display: none; }
     .small-screen { display: inherit; }
 }
+
+p { text-align: justify; }
 
 .contact {
     //float: right;
