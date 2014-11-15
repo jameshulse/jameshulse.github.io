@@ -4,19 +4,47 @@ html, body {
 
 /* line 5, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
 body {
-  color: #666;
-  background-image: url('../img/swirl_pattern.png');
-  font-family: 'Segoe UI', Arial, freesans, sans-serif; }
+  font-family: 'Segoe UI', Arial, freesans, sans-serif;
+  color: #333; }
 
 /* line 11, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
 #container {
-  text-align: center;
   box-sizing: border-box;
-  padding: 1em;
+  padding: 4em;
   width: 80%;
   margin: 0 auto;
   background-color: #FEFEFE;
   min-height: 100%;
-  box-shadow: 1px 3px 20px 1px #EBEBEB; }
+  box-shadow: 2px 3px 20px 3px #EBEBEB; }
+
+/* line 22, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+h1 {
+  text-align: center;
+  font-size: 8em;
+  color: #000;
+  margin-bottom: 0.2em; }
+
+/* line 29, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+.caption {
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  padding: 1em 0 1em 0;
+  text-align: center;
+  margin-bottom: 2em; }
+
+/* line 39, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+#box-container {
+  display: flex;
+  justify-content: space-around; }
+
+/* line 44, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+.box {
+  min-width: 10em;
+  border: 1px solid #EBEBEB;
+  padding: 1em; }
+  /* line 49, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+  .box h2 {
+    font-weight: bold;
+    margin-bottom: 0.3em; }
 
 /*# sourceMappingURL=layout.css.map */
