@@ -2,49 +2,92 @@
 html, body {
   height: 100%; }
 
-/* line 5, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+/* line 7, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
 body {
-  font-family: 'Segoe UI', Arial, freesans, sans-serif;
-  color: #333; }
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-size: 1.1em; }
 
-/* line 11, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
-#container {
+/* line 13, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+#page {
   box-sizing: border-box;
-  padding: 4em;
+  padding: 2.5em;
   width: 80%;
   margin: 0 auto;
   background-color: #FEFEFE;
-  min-height: 100%;
-  box-shadow: 2px 3px 20px 3px #EBEBEB; }
+  min-height: 100%; }
 
-/* line 22, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
-h1 {
-  text-align: center;
-  font-size: 8em;
-  color: #000;
-  margin-bottom: 0.2em; }
+/* line 24, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+a, a:visited, a:link {
+  text-decoration: none;
+  color: #333; }
 
 /* line 29, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+h1 {
+  font-family: serif;
+  text-align: center;
+  font-size: 8em;
+  color: #408FC7;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+
+@media (min-width: 600px) {
+  /* line 42, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+  .large-screen {
+    display: default; }
+
+  /* line 43, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+  .small-screen {
+    display: none; }
+ }
+
+@media (max-width: 600px) {
+  /* line 47, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+  .large-screen {
+    display: none; }
+
+  /* line 48, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+  .small-screen {
+    display: default; }
+ }
+
+/* line 51, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+.contact {
+  font-size: 0.8em;
+  text-align: center;
+  margin-bottom: 2em; }
+  /* line 57, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+  .contact ul > li {
+    display: inline;
+    padding-left: 0.7em; }
+  /* line 61, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+  .contact i {
+    margin-right: 0.6em; }
+
+/* line 64, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
 .caption {
-  border-top: 1px solid #CCC;
-  border-bottom: 1px solid #CCC;
-  padding: 1em 0 1em 0;
+  clear: right;
+  border-top: 1px dotted #DDD;
+  border-bottom: 1px dotted #DDD;
+  padding: 0.7em 0 0.7em 0;
   text-align: center;
   margin-bottom: 2em; }
 
-/* line 39, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
-#box-container {
-  display: flex;
-  justify-content: space-around; }
-
-/* line 44, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+/* line 75, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
 .box {
-  min-width: 10em;
-  border: 1px solid #EBEBEB;
-  padding: 1em; }
-  /* line 49, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+  margin-bottom: 1em; }
+  /* line 81, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+  .box .title {
+    padding: 0.2em 0 0.2em 0.2em;
+    font-size: 0.9em; }
+  /* line 86, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
+  .box .content {
+    padding: 0.2em; }
+  /* line 90, /Users/jameshulse/Code/PersonalSite/sass/layout.scss */
   .box h2 {
     font-weight: bold;
-    margin-bottom: 0.3em; }
+    margin-bottom: 0.8em;
+    font-size: 0.8em;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5em; }
 
 /*# sourceMappingURL=layout.css.map */
